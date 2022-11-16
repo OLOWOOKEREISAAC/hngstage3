@@ -4,6 +4,7 @@ import img2 from '../../assets/image 3.png';
 import img3 from '../../assets/image 6.png';
 import img4 from '../../assets/image 5.png';
 import Banner from './Banner';
+import Card from '../body/Card';
 
 function HeaderSection(){
     return(
@@ -42,6 +43,7 @@ function HeaderSection(){
             
             </div>
             <Banner/>
+           
         </>
     )
 };

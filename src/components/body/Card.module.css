@@ -1,0 +1,40 @@
+.bodyHeader{
+    text-align: center;
+    margin: 50px 0;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.eachCard{
+    padding: 20px;
+    border: 1px solid #cccbcb;
+    border-radius: 10px;
+    width: 270px;
+    margin: 5%;
+    
+
+    
+}
+
+
+.eachCard figure img{
+    width: 100%;
+}
+.cardText{
+    display: grid;
+    grid-template-columns: 40% 60%;
+   
+}
+
+.cardText p{
+    margin: 5px 0;
+    font-size: small;
+}
+
+.alignToRight{
+    text-align: right;
+}
