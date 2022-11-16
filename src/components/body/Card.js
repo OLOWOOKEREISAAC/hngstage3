@@ -1,4 +1,5 @@
 import  styles from './Card.module.css';
+import stars from '../../assets/star.png';
 
 const Card = (props)=>{
     const { image } = props;
@@ -13,6 +14,10 @@ const Card = (props)=>{
                     <p className={styles.alignToRight}>1MBTper night</p>
                     <p>2345km away</p>
                     <p className={styles.alignToRight}>available for 2weeks stay</p>
+                    <figure>
+                       <img src={stars} alt=''/> 
+                    </figure>
+                    
                 </div>
             </div>
         </div>

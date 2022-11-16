@@ -4,11 +4,12 @@ import img2 from '../../assets/image 3.png';
 import img3 from '../../assets/image 6.png';
 import img4 from '../../assets/image 5.png';
 import Banner from './Banner';
-import Card from '../body/Card';
+import Nav1 from './Nav1';
 
 function HeaderSection(){
     return(
         <>
+            <Nav1/>
             <div className = {styles.headerContainer}>
 
                 <div className={styles.headerText}>
@@ -23,23 +24,23 @@ function HeaderSection(){
                     <input type='text' id = 'search' name = 'search' placeholder ='Search for location'/>
                     <label for = 'search'>Search</label>
                 </div>
-            <div className = {styles.headerImage}>
-                    <figure id='img1'>
-                        <img src={img1} alt='img' ></img>
-                    </figure>
+                <div className = {styles.headerImage}>
+                        <figure id='img1'>
+                            <img src={img1} alt='img' ></img>
+                        </figure>
 
-                    <figure className={styles.imgoffset}>
-                        <img src={img2} alt='img' ></img>
-                    </figure>
-                    <figure id='img3'>
-                        <img src={img3} alt='img' ></img>
-                    </figure>
-                    <figure className={styles.imgoffset}>
-                    <img src={img4} alt='img' ></img> 
-                    </figure>
-                    
-                    
-            </div>
+                        <figure className={styles.imgoffset}>
+                            <img src={img2} alt='img' ></img>
+                        </figure>
+                        <figure id='img3'>
+                            <img src={img3} alt='img' ></img>
+                        </figure>
+                        <figure className={styles.imgoffset}>
+                        <img src={img4} alt='img' ></img> 
+                        </figure>
+                        
+                        
+                </div>
             
             </div>
             <Banner/>

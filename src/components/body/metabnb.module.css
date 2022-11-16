@@ -1,23 +1,33 @@
+.metabnbContainer1{
+    width: 100%;
+    background-color: #A02279;    
+}
+
 .metabnbContainer{
     display: grid;
-    grid-template-columns: 30% 40%;
+    width: 80%;
+    grid-template-columns: 45% 45%;
     column-gap: 10%;
-    align-items: center;
-    background-color: #A02279;
-    padding: 20px 40px;
+    align-items: center; 
+    padding: 50px 0px ;
     color: white;
-
+    margin: 0px auto;
 }
 
 .metabnbText{
     margin-bottom: 10%;
+}
+.metabnbText p{
+    margin: 20px 0;
+    line-height: 30px;
+    
 }
 .metabnbText button{
     color: #A02279;
     background-color: white;
     padding: 10px 20px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 

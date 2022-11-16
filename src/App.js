@@ -1,17 +1,24 @@
+import React from 'react';
 import './App.css';
-import Body from './components/body/Body';
-import Footer from './components/footer/footer';
-import HeaderSection from './components/header/header';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import PlaceToStay from './components/placeToStay';
+import Home from './components/home';
+
 
 function App() {
   return (
-    <>
-
-    <HeaderSection/>
-    <Body/>
-    <Footer/>
-    
-    </>
+    <React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Place-To-Stay' element={<PlaceToStay/>} />
+      </Routes>
+      
+      
+    </BrowserRouter>
+   </React.Fragment>
+   
   );
 }
 

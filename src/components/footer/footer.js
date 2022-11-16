@@ -1,9 +1,21 @@
 import styles from './footer.module.css';
+import facebook from '../../assets/facebook.png';
+import twitter from '../../assets/twitter.png';
+import instagram from '../../assets/instagram.png';
+import banner2 from '../../assets/ban2.png';
 
 function Footer(){
     return(
         <div className={styles.footerContainer}>
-            <div>1 1</div>
+            <div>
+                <img src={banner2} alt = 'img'/>
+                
+                <div className={styles.sociallinks}>
+                    <img src={facebook} alt = 'img'/> 
+                    <img src={instagram} alt = 'img'/>
+                    <img src={twitter} alt = 'img'/>
+                </div>
+            </div>
             <div>
                 <h3>Community</h3>
                 <p>NFT</p>
@@ -25,6 +37,7 @@ function Footer(){
                 <p>Carrers</p>
                 <p>Contact us.</p>
             </div>
+            <p> &copy; 2022 Metabnb </p>
         </div>
     )
 };
