@@ -57,6 +57,12 @@ function PlaceToStay(){
     return(
         <>
             <Nav1/>
+            <div>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
             <CardList images = {imagesForBody}/>
 
             <Footer/>
