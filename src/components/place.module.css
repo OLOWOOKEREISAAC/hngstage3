@@ -1,0 +1,10 @@
+.nav2{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    justify-items: center;
+}
+
+.locate{
+    display: flex;
+    justify-content: space-between;
+}

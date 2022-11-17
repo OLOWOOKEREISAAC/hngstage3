@@ -1,6 +1,7 @@
 import Footer from "./footer/footer";
 import Nav1 from "./header/Nav1";
 import CardList from "./body/CardList";
+import styles from './place.module.css';
 
 
 import img1 from '../assets/B-img1.png';
@@ -19,6 +20,8 @@ import img13 from '../assets/img13.png';
 import img14 from '../assets/img14.png';
 import img15 from '../assets/img15.png';
 import img16 from '../assets/img16.png';
+import location from '../assets/locate.png';
+
 
 
 
@@ -57,11 +60,16 @@ function PlaceToStay(){
     return(
         <>
             <Nav1/>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div className={styles.nav2}>
+                <p>Resturant </p>
+                <p>Cottage</p>
+                <p>Castle</p>
+                <p>Fantasy City</p>
+                <p>Beach </p>
+                <p>Carbins</p>
+                <p>Off-grid</p>
+                <p>Farms</p>
+                <p className={styles.locate}>Location <img src={location} alt='img'/></p>
             </div>
             <CardList images = {imagesForBody}/>
 
