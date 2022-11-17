@@ -1,4 +1,4 @@
-import styles from './footer.module.css';
+import styles from './Footer.module.css';
 import facebook from '../../assets/facebook.png';
 import twitter from '../../assets/twitter.png';
 import instagram from '../../assets/instagram.png';

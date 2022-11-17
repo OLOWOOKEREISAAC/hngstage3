@@ -1,6 +1,6 @@
-import Body from "./body/Body";
-import Footer from "./footer/footer";
-import HeaderSection from "./header/header";
+import Body from "./Body/Body";
+import Footer from "./Footer/Footer";
+import HeaderSection from "./Header/Header";
 
 function Home(){
     return(

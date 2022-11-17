@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './header.module.css';
+import styles from './Header.module.css';
 import Modal from './Modal';
 import banner from '../../assets/banner.png';
 

@@ -1,7 +1,7 @@
-import Footer from "./footer/footer";
-import Nav1 from "./header/Nav1";
-import CardList from "./body/CardList";
-import styles from './place.module.css';
+import Footer from "./Footer/Footer";
+import Nav1 from "./Header/Nav1";
+import CardList from "./Body/CardList";
+import styles from './Place.module.css';
 
 
 import img1 from '../assets/B-img1.png';

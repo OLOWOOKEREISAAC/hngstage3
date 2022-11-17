@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import PlaceToStay from './components/placeToStay';
-import Home from './components/home';
+import PlaceToStay from './components/PlaceToStay';
+import Home from './components/Home';
 
 
 function App() {

@@ -1,7 +1,7 @@
 import opensea from '../../assets/Frame 4041.png'
 import meta from '../../assets/Group 4040.png'
 import mb from '../../assets/mb.png'
-import styles from './header.module.css';
+import styles from './Header.module.css';
 
 
 const Banner = ()=>{

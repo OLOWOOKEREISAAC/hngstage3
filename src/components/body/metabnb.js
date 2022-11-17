@@ -1,4 +1,4 @@
-import styles from './metabnb.module.css';
+import styles from './Metabnb.module.css';
 import img from '../../assets/img7.png';
 
 function Metabnb (){

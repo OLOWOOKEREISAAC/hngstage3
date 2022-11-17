@@ -1,6 +1,6 @@
 import  styles from './Card.module.css';
 import CardList from "./CardList";
-import Metabnb from "./metabnb";
+import Metabnb from "./Metabnb";
 import img1 from '../../assets/B-img1.png';
 import img2 from '../../assets/B-img2.png';
 import img3 from '../../assets/B-img3.png';

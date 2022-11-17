@@ -1,4 +1,4 @@
-import styles from './header.module.css';
+import styles from './Header.module.css';
 import imgage from '../../assets/error.png';
 import im from '../../assets/co.png';
 
